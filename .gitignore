@@ -1,0 +1,22 @@
+# Données brutes téléchargées : voir scripts/01_recuperer_donnees.sh et scripts/04_contexte_carte_situation.sh
+data/brut/
+data/traite/
+
+# Projet de travail local (contient les identifiants PostgreSQL) : utiliser qgis/etude_env_captieux.qgz
+/etude_env_captieux.qgz
+/etude_env_captieux_tmp.qgz
+
+# Anciennes exportations d'images à la racine, remplacées par cartes/
+/*.jpeg
+
+# Données de la carte web en préparation (retirer cette ligne quand la page web sera prête)
+web/
+
+# Journaux d'exécution et fichiers temporaires
+*.log
+*.bak
+*~
+~$*
+.DS_Store
+Thumbs.db
+__pycache__/
